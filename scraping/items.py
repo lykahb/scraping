@@ -8,7 +8,8 @@
 import scrapy
 
 
-class ScrapingItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class CategoryItem(scrapy.Item):
+    department = scrapy.Field()
+    category_id = scrapy.Field()
+    name = scrapy.Field()
+    link = scrapy.Field()
