@@ -13,3 +13,10 @@ class CategoryItem(scrapy.Item):
     category_id = scrapy.Field()
     name = scrapy.Field()
     link = scrapy.Field()
+
+
+class ProductItem(scrapy.Item):
+    name = scrapy.Field()
+    price = scrapy.Field()
+    availability = scrapy.Field()
+    link = scrapy.Field()
